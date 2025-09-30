@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Ray-Ban Aviator Classic | SpectrumPro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <div class="logo-icon"></div>
+        SpectrumPro
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hamburger" tabindex="0" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="order-page">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <a href="product.html">Ray-Ban Aviator</a> / <span>Order</span>
+      </div>
+
+      <h1 class="page-title">Complete Your Order</h1>
+
+      <div class="order-layout">
+        <div class="order-summary-section">
+          <h2>Order Summary</h2>
+          
+          <div class="order-item-card">
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=120&q=80" alt="Ray-Ban Aviator Classic">
+            <div class="item-info">
+              <h3>Ray-Ban Aviator Classic</h3>
+              <p class="item-model">Model: RB3025</p>
+              <p class="item-specs">Standard Lens • Quantity: 1</p>
+            </div>
+            <div class="item-price">$154</div>
+          </div>
+
+          <div class="order-totals">
+            <div class="total-row">
+              <span>Subtotal:</span>
+              <span>$<span id="subtotal">154</span></span>
+            </div>
+            <div class="total-row">
+              <span>Shipping:</span>
+              <span>Free</span>
+            </div>
+            <div class="total-row total-final">
+              <span>Total:</span>
+              <span>$<span id="final-total">154</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-form-section">
+          <form class="checkout-form" id="checkoutForm">
+            <div class="form-section">
+              <h3>Customer Information</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+            </div>
+
+            
+
+            <div class="form-section">
+              <h3>Additional Notes</h3>
+              <div class="form-group">
+                <label for="notes">Special Instructions (Optional)</label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Any special delivery instructions..."></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <a href="product.html" class="btn-secondary">Back to Product</a>
+              <a href="success.html" class="btn-primary">Submit Order</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+   
+    <div class="copyright">&copy; 2025 SpectrumPro. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="order.js"></script>
+</body>
+</html>
